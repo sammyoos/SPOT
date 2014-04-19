@@ -1,0 +1,56 @@
+body { 
+   padding-top: 60px; 
+   padding-bottom: 40px; 
+   background-color:#242016;
+   color:#A4A096;
+} 
+
+h1 {
+   color:#AAA8A0;
+}
+
+h2 {
+   color:#AAA8A0;
+}
+
+h3 {
+   color:#B8B0AA;
+}
+
+div.tools > p {
+   margin: 5px 5px 5px 10px;
+}
+
+span {
+   width: 190px;
+   padding: 2px 4px 3px;
+   display: block;
+}
+
+div.smaller {
+   font-size: 80%;
+   padding: 1px 1px 1px 6px;
+}
+
+
+div.tools {
+   margin: 5px;
+}
+
+div.big-list {
+   height: 450px;
+   overflow:scroll;
+}
+
+div.searcher {
+   width: 100%;
+   display: block;
+}
+
+.modal {display:none;}
+
+#customName {
+   margin: 5px;
+}
+
+[draggable=true] { cursor: move; }
