@@ -1,4 +1,8 @@
+html {
+}
+
 body { 
+   height: 100%;
    padding-top: 60px; 
    padding-bottom: 40px; 
    background-color:#242016;
@@ -37,9 +41,15 @@ div.tools {
    margin: 5px;
 }
 
+#all-lists {
+   height: 100%;
+}
+
 div.big-list {
-   height: 450px;
-   overflow:scroll;
+   margin: 0 auto;
+   display: block;
+   overflow-x:hidden;
+   overflow-y:scroll;
 }
 
 div.searcher {
