@@ -1,10 +1,5 @@
-html {
-}
-
 body { 
-   height: 100%;
    padding-top: 60px; 
-   padding-bottom: 40px; 
    background-color:#242016;
    color:#A4A096;
 } 
@@ -42,7 +37,17 @@ div.tools {
 }
 
 #all-lists {
-   height: 100%;
+	position: absolute;
+	top: 0px;
+	bottom: 3px;
+	left: 3px;
+	right: 15px;
+	margin-top: 40px;
+}
+
+.span3 {
+   display: inline-table;
+   height: 95%;
 }
 
 div.big-list {
@@ -50,6 +55,9 @@ div.big-list {
    display: block;
    overflow-x:hidden;
    overflow-y:scroll;
+   height: 95%;
+
+   cursor: cell;
 }
 
 div.searcher {
@@ -63,4 +71,3 @@ div.searcher {
    margin: 5px;
 }
 
-[draggable=true] { cursor: move; }
